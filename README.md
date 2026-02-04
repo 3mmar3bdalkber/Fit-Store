@@ -1,66 +1,125 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1 align="center"> FitStore — E-Commerce Clothing Platform</h1>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  A modern, responsive e-commerce platform built with <strong>Laravel</strong> for ITI Final Project.<br/>
+  Shop fashion collections with cart functionality, wishlists, orders, and admin management.
 </p>
 
-## About Laravel
+<p align="center">
+  <!-- Shields -->
+  <a href="https://laravel.com/"><img src="https://img.shields.io/badge/Laravel-10+-FF2D20?logo=laravel&logoColor=white" alt="Laravel"></a>
+  <a href="https://php.net/"><img src="https://img.shields.io/badge/PHP-8.1+-777BB4?logo=php&logoColor=white" alt="PHP"></a>
+  <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white" alt="MySQL"></a>
+  <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white" alt="Bootstrap"></a>
+  <img src="https://img.shields.io/badge/Status-Complete-brightgreen" alt="Status">
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-screenshots">Demo</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-project-structure">Structure</a> •
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+##  Features
 
-## Learning Laravel
+###  **Shopping Experience**
+- **Product Catalog** with categories (Summer, Winter, All Collections)
+- **Advanced Search** with instant results
+- **Product Details** with multiple images, colors, and pricing
+- **Sale/Discount** system with percentage display
+- **Responsive Design** optimized for all devices
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+###  **User Features**
+- **User Authentication** (Register/Login/Logout)
+- **Shopping Cart** with real-time updates
+- **Wishlist/Favorites** system
+- **Order History** with detailed tracking
+- **Profile Management**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+###  **Admin Panel**
+- **Product Management** (CRUD operations)
+- **Inventory Management** with stock tracking
+- **Order Management** system
+- **User Management** capabilities
+- **Sales Analytics** dashboard
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+###  **Security**
+- CSRF Protection
+- SQL Injection prevention
+- Password hashing
+- Session management
+- Input validation & sanitization
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+##  Demo
 
-### Premium Partners
+ <img src="demo/demo.gif" width="100%"/> 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+---
 
-## Contributing
+##  Tech Stack
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### **Backend**
+- **PHP 8.1+** with Laravel 10
+- **MySQL** Database
+- **Eloquent ORM** for database operations
+- **Blade Templating Engine**
+- **Artisan CLI** for development
 
-## Code of Conduct
+### **Frontend**
+- **HTML5, CSS3, JavaScript (ES6+)**
+- **Bootstrap 5** for responsive design
+- **Font Awesome** icons
+- **Custom CSS** with modern design system
+- **AJAX** for seamless user interactions
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### **Development Tools**
+- **Composer** for dependency management
+- **Git** for version control
+- **VS Code** with Laravel extensions
+- **XAMPP/WAMP** for local development
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Project Structure
+```bash
+FitStore/
+├── app/
+│ ├── Http/
+│ │ ├── Controllers/ # All controllers (Cart, Product, Order, etc.)
+│ │ └── Middleware/ # Custom middleware
+│ ├── Models/ # Eloquent models (User, Product, Cart, Order, etc.)
+│ └── Providers/ # Service providers
+├── database/
+│ ├── migrations/ # Database migrations
+│ └── seeders/ # Database seeders
+├── public/
+│ ├── product_images/ # Product images storage
+│ └── index.php # Entry point
+├── resources/
+│ ├── views/ # Blade templates
+│ │ ├── products/ # Product related views
+│ │ ├── cart/ # Shopping cart views
+│ │ ├── orders/ # Order management views
+│ │ └── layout.blade.php # Main layout
+│ └── js/ # JavaScript files
+├── routes/
+│ ├── web.php # Web routes
+│ └── api.php # API routes
+├── storage/ # Storage for logs, cache, etc.
+├── tests/ # PHPUnit tests
+├── .env.example # Environment configuration example
+├── composer.json # PHP dependencies
+├── artisan # Laravel CLI
+└── README.md # This file
+```
+---
 
-## License
+## Contact
+For questions, support, or contributions:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Email: [1234ammarabdalkber@gmail.com]
