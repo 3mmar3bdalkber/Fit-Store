@@ -23,7 +23,7 @@
 
 ---
 
-##  Features
+## Features
 
 ###  **Shopping Experience**
 - **Product Catalog** with categories (Summer, Winter, All Collections)
@@ -55,13 +55,13 @@
 
 ---
 
-##  Demo
+## Demo
 
  <img src="demo/demo.gif" width="100%"/> 
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 ### **Backend**
 - **PHP 8.1+** with Laravel 10
