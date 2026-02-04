@@ -122,4 +122,4 @@ FitStore/
 ## Contact
 For questions, support, or contributions:
 
-Email: [1234ammarabdalkber@gmail.com]
+Email: [1234amarabdalkber@gmail.com]
