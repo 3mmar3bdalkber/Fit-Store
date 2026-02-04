@@ -15,10 +15,10 @@
 </p>
 
 <p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-screenshots">Demo</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-project-structure">Structure</a> •
+  <a href="#features">Features</a> •
+  <a href="#screenshots">Demo</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#project-structure">Structure</a> •
 </p>
 
 ---
