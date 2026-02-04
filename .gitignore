@@ -1,6 +1,5 @@
+# Laravel .gitignore
 /node_modules
-/public/build
-/public/hot
 /public/storage
 /storage/*.key
 /vendor
@@ -10,9 +9,36 @@
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
-auth.json
 npm-debug.log
 yarn-error.log
-/.fleet
-/.idea
-/.vscode
+.idea
+*.sqlite
+*.sqlite-journal
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
+/vendor/
+
+# Logs
+*.log
+storage/logs/
+
+# Testing
+/coverage
+
+# Environment
+.env
+
+# Laravel specific
+bootstrap/cache/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
